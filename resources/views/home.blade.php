@@ -1,5 +1,7 @@
 @extends('layouts.app')
-
+@section('meta')
+<title>{{ config('app.name', 'Laravel SSR with Vue') }}</title>
+@endsection
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
