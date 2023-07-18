@@ -29,7 +29,7 @@ onMounted(()=>{
                 </div>
 
             </div>
-            <nav aria-label="Page navigation example">
+            <nav aria-label="Page navigation example" class="mt-3">
                 <ul class="pagination">
                     <li class="page-item"><a class="page-link" @click="getCreateData(posts.prev_page_url)">Previous</a></li>
                     <li class="page-item"><a class="page-link" >{{ posts.current_page }} / {{ posts.total }}</a></li>
