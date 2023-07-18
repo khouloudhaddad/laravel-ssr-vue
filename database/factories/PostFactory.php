@@ -17,7 +17,7 @@ class PostFactory extends Factory
      *
      * @return array<string, mixed>
      */
-    public function definition(): array
+    public function definition(Faker $faker): array
     {
         return [
             'name' => $faker->name,
